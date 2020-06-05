@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 import SEO from '../components/SEO'
 // ...GatsbyImageSharpFluid
 const IndexPage = () => {
-  return <Layout>home page</Layout>
+  return <Layout></Layout>
 }
 
 export default IndexPage
