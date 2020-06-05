@@ -5,7 +5,17 @@ import logo from '../assets/logo.svg'
 import Links from '../constants/links'
 import SocialLinks from '../constants/socialLinks'
 const Navbar = ({ toggle }) => {
-  return <h2>navbar component</h2>
+  return (
+  <navc className="navbar">
+    <div className="nav-center">
+      <div className="nav-header">
+      <Link to="/" className="nav-logo">
+        <img src={logo} alt="mdx logo"/>
+      </Link>
+      </div>
+    </div>
+  </navc>
+  )
 }
 
 export default Navbar

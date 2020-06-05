@@ -12,10 +12,10 @@ import Footer from './Footer'
 const Layout = ({ children }) => {
   return (
     <>
-      <Navbar></Navbar>
-      <Sidebar/>
+      <Navbar/>
+      {/* <Sidebar/> */}
       <main>{children}</main>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }
