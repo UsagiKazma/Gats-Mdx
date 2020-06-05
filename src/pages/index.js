@@ -1,12 +1,12 @@
-import React from 'react'
-import Hero from '../components/Hero'
-import Layout from '../components/Layout'
-import Posts from '../components/Posts'
-import { graphql } from 'gatsby'
-import SEO from '../components/SEO'
+import React from "react";
+import Hero from "../components/Hero";
+import Layout from "../components/Layout";
+import Posts from "../components/Posts";
+import { graphql } from "gatsby";
+import SEO from "../components/SEO";
 // ...GatsbyImageSharpFluid
 const IndexPage = () => {
-  return <Layout></Layout>
-}
+  return <Layout></Layout>;
+};
 
-export default IndexPage
+export default IndexPage;
